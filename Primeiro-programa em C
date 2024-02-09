@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int primeiroNumero, segundoNumero, soma, multiplicacao;
+
+    // Solicita os números ao usuário
+    printf("Digite o primeiro número: ");
+    scanf("%d", &primeiroNumero);
+
+    printf("Digite o segundo número: ");
+    scanf("%d", &segundoNumero);
+
+    // Calcula a soma
+    soma = primeiroNumero + segundoNumero;
+
+    // Calcula a multiplicação
+    multiplicacao = soma * primeiroNumero;
+
+    // Exibe os resultados
+    printf("A soma de %d e %d é: %d\n", primeiroNumero, segundoNumero, soma);
+    printf("A multiplicação do resultado pelo primeiro número é: %d\n", multiplicacao);
+
+    return 0;
+}
